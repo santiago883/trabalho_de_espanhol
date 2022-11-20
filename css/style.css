@@ -102,18 +102,21 @@ header{
     margin-left: 10px;
     margin-top: 10px;
     text-justify: auto;
-    display: none;
+    display:none;
+}
+
+.tembut{
+    height: 50px;
 }
 
 .button{
     background-image: url(../images/icons/seta.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 50px;
-    width: 50px;
     margin-right: 20px;
     margin-top: 5%;
-    
+    height: 50px;
+    width: 50px;
 }
 
 .espaco{
