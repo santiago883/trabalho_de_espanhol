@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' ;
+    font-weight: 600;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: rgb(247, 247, 247);
+}
+
+.container_1{
+    
+}
+
+.container_1 img{
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container_1 nav{
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.container_1 nav ul li {
+    display: inline-block;
+    padding: 25px;
+    font-size: 20px
+}
+
+.container_1 nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.container_1 ul:nth-child(1) :hover{
+    color: blue;
+}
+
+.container_1 ul :last-child :hover{
+    color: red;
+}
+
+.container_1 ul :first-child :hover{
+    color: yellow;
+}
+
+.container_1 ul :nth-child(3) a {
+    color: red;
+}
+
+.container_cardapio{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+.container_enu{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.container_enu h2{
+    font-size: 60px;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 25px;
+}
+
+.container_comidas{
+    background-color: rgb(247, 247, 247);
+    border-radius: 25px;
+}
+
+.platos_enu  h2{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+.plato{
+
+    background-color: white;
+    width: 95%;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.plato img{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 120px;
+    margin-left: 30px;
+    border-radius: 25px;
+    
+}
+
+.texto{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 14px;
+    background-color:rgb(247, 247, 247);
+    margin-bottom: 10px;
+    border-radius: 25px;
+    text-justify: auto;
+    width: 75%;
+}
+
+.texto h2{
+    margin-top: 12px;
+    margin-left: 10px;
+    text-justify: auto;
+}
+
+.texto p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.button{
+    background-image: url(../images/download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 5%;
+    
+}
+
+.espaco{
+    height: 20px;
+}
+
+.platos_enu2  h2{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
