@@ -119,6 +119,19 @@ header{
     width: 50px;
 }
 
+.preco{
+    width: 100px;
+    height: 100px;
+    text-justify: auto;
+    margin-right: 10px;
+}
+
+.preco p{
+    font-size: 25px;
+    margin-top: 58px;
+    color: lime;
+}
+
 .espaco{
     height: 20px;
 }
@@ -128,4 +141,119 @@ header{
     margin-left: 10%;
     margin-bottom: 50px;
     margin-top: 60px;
+}
+
+.eco2{
+    margin-top: 50px;
+}
+
+.container_footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+}
+
+.link_1{
+    margin-left: 200px;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+
+.link_1 img{
+    height: 55px;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.link_1 p{
+    color: white;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.link_2{
+    margin-left: 200px;
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: -50px;
+}
+
+.link_2 img{
+    height: 55px;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.link_2 p{
+    color: white;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.text_fi{
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 550px){
+
+    .plato img{
+        height: 75px;
+        width: 80px;
+    }
+
+    .texto{
+        background-color: rgb(228, 228, 228);
+    }
+
+    .texto h2{
+        margin: 15px;
+    }
+
+    .preco{
+        margin-top: -23px;
+    }
+
+    .container_cardapio{
+        margin: 20px unset;
+    }
+
+    .container_footer{
+        text-align: center;
+    }
+
+    .link_1{
+        text-align: center;
+        margin: 0;
+    }
+
+    .link_2{
+        text-align: center;
+        margin: 0;
+        margin-top: -50px;
+    }
+    
 }
