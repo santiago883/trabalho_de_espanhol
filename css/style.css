@@ -114,9 +114,10 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 20px;
-    margin-top: 5%;
+    margin-top: 50px;
     height: 50px;
-    width: 50px;
+    width: 20%;
+    display: block;
 }
 
 .preco{
@@ -221,8 +222,13 @@ header{
 @media screen and (max-width: 550px){
 
     .plato img{
-        height: 75px;
-        width: 80px;
+        height: 65px;
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    .button{
+        margin-top: 20px;
     }
 
     .texto{
@@ -248,12 +254,17 @@ header{
     .link_1{
         text-align: center;
         margin: 0;
+        margin-top: -50px;
     }
 
     .link_2{
         text-align: center;
         margin: 0;
         margin-top: -50px;
+    }
+
+    .container_footer{
+        height: 250px;
     }
     
 }
