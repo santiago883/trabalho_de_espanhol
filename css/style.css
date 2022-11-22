@@ -203,7 +203,19 @@ header{
 
 
 
+.im img{
+    width: 80%;
+    text-align: center;
+}
 
+.im{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin-top: 30%;
+    display: none;
+
+}
 
 
 
@@ -233,10 +245,15 @@ header{
 
     .texto{
         background-color: rgb(228, 228, 228);
+        margin-left: 10px;
     }
 
     .texto h2{
         margin: 15px;
+    }
+
+    .texto p{
+        margin-bottom: 15px;
     }
 
     .preco{
@@ -259,12 +276,12 @@ header{
 
     .link_2{
         text-align: center;
-        margin: 0;
-        margin-top: -50px;
+        margin: 20px;
+        margin-top: -20px;
     }
 
     .container_footer{
-        height: 250px;
+        height: 300px;
     }
     
 }
